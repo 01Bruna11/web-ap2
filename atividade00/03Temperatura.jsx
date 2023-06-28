@@ -1,22 +1,22 @@
-/*
 import React from 'react'
 
-const celsiusParaFarenheit = (c) => {
-    return (c * 9) / 5 + 32
-}
-
-const FarenheitParaCelsius = (f) => {
-    return (f - 32) * 5 / 9
-}
-
-const kelvin = (k) => {
-    return {
-        celsius: k - 273.15,
-        farenheit: celsiusParaFarenheit(k - 273.15)
-    }
-}
-
 const Temperatura = () => {
+
+    const celsiusParaFarenheit = (c) => {
+        return (c*9 + 180) / 5
+    }
+    
+    const FarenheitParaCelsius = (f) => {
+        return (f*5 - 180) / 9
+    }
+    
+    const kelvin = (k) => {
+        return {
+            celsius: k - 273.15,
+            farenheit: celsiusParaFarenheit(k - 273.15)
+        }
+    }
+
     return (
         <div>
             <h1>Temperatura</h1>
@@ -28,4 +28,3 @@ const Temperatura = () => {
 }
 
 export default Temperatura
-*/

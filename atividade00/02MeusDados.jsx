@@ -1,5 +1,3 @@
-//implemente a mesma ideia do exercicio anterior só que agora você deverá os dados via props a partir do componente pai
-/*
 import React from 'react'
 
 const MeusDados = (props) => {
@@ -14,4 +12,5 @@ const MeusDados = (props) => {
 
 export default MeusDados
 
-*/
+
+
